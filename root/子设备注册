@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T03:35:15.310Z" agent="5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="tfIber2N0W6D8V8jStN4" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-11T03:43:23.531Z" agent="5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="uAxzQAAaJ67-TmUVDXj0" version="14.7.7" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1024" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="7baba1c4bc27f4b0-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
           <mxGeometry x="45" y="60" width="10" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="TnPqKHVMJrRUI5Z-DvME-9" value="预置子设备型号与云端model的映射关系" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-2">
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-9" value="预置子设备型号与云端model的映射关系" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" edge="1" parent="7baba1c4bc27f4b0-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="54" y="75" as="sourcePoint" />
             <Array as="points">
@@ -31,7 +31,7 @@
         <mxCell id="7baba1c4bc27f4b0-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-8" vertex="1">
           <mxGeometry x="45" y="63" width="10" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="TnPqKHVMJrRUI5Z-DvME-4" value="预置子设备型号、SN" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;" edge="1" parent="7baba1c4bc27f4b0-8">
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-4" value="预置子设备型号、SN" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" edge="1" parent="7baba1c4bc27f4b0-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="72" as="sourcePoint" />
             <Array as="points">
@@ -40,23 +40,29 @@
             <mxPoint x="55" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TnPqKHVMJrRUI5Z-DvME-10" value="连接网关" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.1;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7baba1c4bc27f4b0-8">
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-10" value="连接网关" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.1;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;" edge="1" parent="7baba1c4bc27f4b0-8">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="56" y="195" as="sourcePoint" />
-            <mxPoint x="292" y="195.46000000000004" as="targetPoint" />
+            <mxPoint x="56" y="271" as="sourcePoint" />
+            <mxPoint x="292" y="271.46000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-14" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
+        <mxCell id="7baba1c4bc27f4b0-14" value="pub:v4/p/get/thing/topo/josn/1.0" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="403" y="317" as="sourcePoint" />
-            <mxPoint x="753" y="317.0000000000002" as="targetPoint" />
+            <mxPoint x="403" y="264" as="sourcePoint" />
+            <mxPoint x="753" y="264.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TnPqKHVMJrRUI5Z-DvME-11" value="连接鉴权&lt;br&gt;sub：v4/s/post/thing/sub/reg/json/1.0&lt;br&gt;&amp;nbsp; v4/s/get/thing/topo/json/1.0&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E8%BF%9E%E6%8E%A5%E9%89%B4%E6%9D%83%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BentryX%3D0%3BentryY%3D0%3BlabelBackgroundColor%3Dnone%3BfontFamily%3DVerdana%3BfontSize%3D12%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0114%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22403%22%20y%3D%22210%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22753%22%20y%3D%22210.00000000000023%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-11" value="连接鉴权&lt;br&gt;sub：v4/s/post/thing/sub/reg/json/1.0&lt;br&gt;&amp;nbsp; v4/s/get/thing/topo/json/1.0&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E8%BF%9E%E6%8E%A5%E9%89%B4%E6%9D%83%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BentryX%3D0%3BentryY%3D0%3BlabelBackgroundColor%3Dnone%3BfontFamily%3DVerdana%3BfontSize%3D12%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0114%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22403%22%20y%3D%22210%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22753%22%20y%3D%22210.00000000000023%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry x="0.0114" y="-30" relative="1" as="geometry">
             <mxPoint x="403" y="210" as="sourcePoint" />
             <mxPoint x="753" y="210.00000000000023" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-14" value="pub:v4/s/get/thing/topo/json/1.0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="752" y="300" as="sourcePoint" />
+            <mxPoint x="402" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
