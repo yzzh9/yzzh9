@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T06:49:27.133Z" agent="5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="VvoKPWmKW9WWIYoG_z-T" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-11T07:00:19.997Z" agent="5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="la_Pqma70_cNDuQh8Sf-" version="14.7.7" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1024" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -119,7 +119,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dchs_pm9xtYMx9u9VMr9-1" value="自组网（建立topo关系）？" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+        <mxCell id="dchs_pm9xtYMx9u9VMr9-1" value="子设备绑定（建立topo关系）？" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="404" y="592" as="sourcePoint" />
             <mxPoint x="754" y="592.0000000000002" as="targetPoint" />
