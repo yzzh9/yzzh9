@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T05:55:03.658Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="AaewUdhzXLK9iReMzGfA" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T05:56:48.409Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="lbC6duvVTYEg6BT2bHek" version="14.7.10" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1030" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
             <mxPoint x="763" y="596" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TnPqKHVMJrRUI5Z-DvME-22" value="子设备注册结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="1" edge="1">
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-22" value="子设备注册结果" style="html=1;verticalAlign=bottom;endArrow=open;endSize=8;fontFamily=Verdana;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="752" y="613" as="sourcePoint" />
             <mxPoint x="402" y="613" as="targetPoint" />
