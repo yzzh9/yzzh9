@@ -1,0 +1,133 @@
+<mxfile host="app.diagrams.net" modified="2021-06-17T03:39:57.156Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="4UNsrJeBpYgDKHv3W7mg" version="14.7.10" type="github">
+  <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
+    <mxGraphModel dx="1030" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wVTH2eLDArrdqreKuboX-3" value="子设备自注册" style="shape=umlFrame;whiteSpace=wrap;html=1;width=82;height=20;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="48" y="442" width="1002" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="wVTH2eLDArrdqreKuboX-2" value="前置条件" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="48" y="130" width="1002" height="269" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-2" value="网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="348" y="80" width="100" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-2" vertex="1">
+          <mxGeometry x="45" y="112" width="10" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-9" value="预置租户ID、网关模型标识+秘钥、&lt;br&gt;子设备模型标识+秘钥（可选）" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" parent="7baba1c4bc27f4b0-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="170" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="170" />
+            </Array>
+            <mxPoint x="54" y="198" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-3" value="物联网云平台" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="708" y="80" width="100" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-3" vertex="1">
+          <mxGeometry x="45" y="60" width="10" height="562" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-8" value="子设备" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
+          <mxGeometry x="100" y="80" width="100" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-8" vertex="1">
+          <mxGeometry x="45" y="115" width="10" height="507" as="geometry" />
+        </mxCell>
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-4" value="预置模型标识、SN" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" parent="7baba1c4bc27f4b0-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="167" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="167" />
+            </Array>
+            <mxPoint x="55" y="195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-10" value="连接网关（物模型别称、SN）" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.1;entryY=0.298;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Verdana;" parent="7baba1c4bc27f4b0-8" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="56" y="383" as="sourcePoint" />
+            <mxPoint x="292" y="383.46000000000004" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="382" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7baba1c4bc27f4b0-14" value="订阅topic" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="362" as="sourcePoint" />
+            <mxPoint x="753" y="362.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-11" value="网关连接&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E8%BF%9E%E6%8E%A5%E9%89%B4%E6%9D%83%22%20style%3D%22html%3D1%3BverticalAlign%3Dbottom%3BendArrow%3Dblock%3BentryX%3D0%3BentryY%3D0%3BlabelBackgroundColor%3Dnone%3BfontFamily%3DVerdana%3BfontSize%3D12%3BedgeStyle%3DelbowEdgeStyle%3Belbow%3Dvertical%3B%22%20edge%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%220.0114%22%20relative%3D%221%22%20as%3D%22geometry%22%3E%3CmxPoint%20x%3D%22403%22%20y%3D%22210%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22753%22%20y%3D%22210.00000000000023%22%20as%3D%22targetPoint%22%2F%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
+          <mxGeometry x="0.0114" y="5" relative="1" as="geometry">
+            <mxPoint x="403" y="320" as="sourcePoint" />
+            <mxPoint x="753" y="320.0000000000002" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-19" value="查询是否已经注册及存在topo关系" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="402" y="475" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="432" y="475" />
+            </Array>
+            <mxPoint x="402" y="503" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-20" value="未注册则进行自注册，参数：网关模型标识、&lt;br&gt;租户ID、子设备模型标识、子设备SN、sign）&lt;br&gt;sign生成：各参数+子设备模型秘钥" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
+          <mxGeometry x="0.0114" y="-20" relative="1" as="geometry">
+            <mxPoint x="403" y="545" as="sourcePoint" />
+            <mxPoint x="753" y="545.0000000000002" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-21" value="1、验证sign&lt;br&gt;2、查询租户下的模型是否可注册&lt;br&gt;3、创建子设备，使用子设备的SN作为物标识&lt;br&gt;4、创建子设备和网关的topo关系" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="763" y="568" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="793" y="568" />
+            </Array>
+            <mxPoint x="763" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-22" value="pub:v4/s/post/thing/sub/reg/json/1.0&lt;br&gt;（deviceName、deviceSecret、modelName）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="752" y="613" as="sourcePoint" />
+            <mxPoint x="402" y="613" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-23" value="存储deviceName（SN）、deviceSecret" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="403" y="641" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="433" y="641" />
+            </Array>
+            <mxPoint x="403" y="669" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWMjd2jpEnkVxDKpsg_0-1" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="940" y="80" width="100" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="PWMjd2jpEnkVxDKpsg_0-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="PWMjd2jpEnkVxDKpsg_0-1">
+          <mxGeometry x="45" y="60" width="10" height="562" as="geometry" />
+        </mxCell>
+        <mxCell id="PWMjd2jpEnkVxDKpsg_0-3" value="创建子设备物模型" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="984.5" y="160" as="sourcePoint" />
+            <mxPoint x="763" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PWMjd2jpEnkVxDKpsg_0-4" value="打开子设备物模型自注册开关，&lt;br&gt;设置子设备模型标识和密码" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+          <mxGeometry x="0.0339" y="14" width="80" relative="1" as="geometry">
+            <mxPoint x="984.5" y="206" as="sourcePoint" />
+            <mxPoint x="763" y="206" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
