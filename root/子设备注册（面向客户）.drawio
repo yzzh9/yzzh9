@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T03:48:10.019Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="6_A65-w79FP6TjjaYdAf" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T05:51:57.862Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="1iA3CFMTcvgyfgRH8PAJ" version="14.7.10" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1030" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -93,13 +93,13 @@
             <mxPoint x="763" y="596" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TnPqKHVMJrRUI5Z-DvME-22" value="&lt;br&gt;设备用户名、设备密码" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="1" edge="1">
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-22" value="子设备注册结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="752" y="613" as="sourcePoint" />
             <mxPoint x="402" y="613" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TnPqKHVMJrRUI5Z-DvME-23" value="存储设备用户名、设备密码" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-23" value="注册不成功，网关发起重试策略" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="403" y="641" as="sourcePoint" />
             <Array as="points">
