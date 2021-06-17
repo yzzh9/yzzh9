@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T03:45:56.616Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="ITJBAFZlCdloui_z3HRK" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T03:48:10.019Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="6_A65-w79FP6TjjaYdAf" version="14.7.10" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1030" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1030" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,7 +77,7 @@
             <mxPoint x="402" y="503" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TnPqKHVMJrRUI5Z-DvME-20" value="未注册则进行自注册，参数：网关模型标识、&lt;br&gt;租户ID、子设备模型标识、子设备SN、sign&lt;br&gt;&amp;nbsp;sign生成：各参数+子设备模型密码&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-20" value="未注册则进行自注册，参数：网关模型标识、&amp;nbsp; &amp;nbsp;&lt;br&gt;租户ID、子设备模型标识、子设备SN、sign&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp;sign生成：MD5(ts+各参数+子设备模型密码)&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
           <mxGeometry x="0.0114" y="-20" relative="1" as="geometry">
             <mxPoint x="403" y="545" as="sourcePoint" />
             <mxPoint x="753" y="545.0000000000002" as="targetPoint" />
