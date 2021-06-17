@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T05:59:29.962Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="i0Q6H2sAXi2rZxghaZRg" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T13:04:28.194Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="WqFjm2TRA_KQjjgJH3aR" version="14.7.10" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1030" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1021" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wVTH2eLDArrdqreKuboX-3" value="子设备自注册" style="shape=umlFrame;whiteSpace=wrap;html=1;width=82;height=20;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="48" y="442" width="992" height="290" as="geometry" />
+          <mxGeometry x="48" y="442" width="992" height="238" as="geometry" />
         </mxCell>
         <mxCell id="wVTH2eLDArrdqreKuboX-2" value="前置条件" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="48" y="130" width="992" height="269" as="geometry" />
@@ -68,29 +68,20 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TnPqKHVMJrRUI5Z-DvME-19" value="查询是否已经注册及存在topo关系" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="402" y="475" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="432" y="475" />
-            </Array>
-            <mxPoint x="402" y="503" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TnPqKHVMJrRUI5Z-DvME-20" value="未注册则进行自注册，参数：网关模型标识、&amp;nbsp; &amp;nbsp;&lt;br&gt;租户ID、子设备模型标识、子设备SN、sign&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp;sign生成：MD5(ts+各参数+子设备模型密码)&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
-          <mxGeometry x="0.0114" y="-20" relative="1" as="geometry">
-            <mxPoint x="403" y="545" as="sourcePoint" />
-            <mxPoint x="753" y="545.0000000000002" as="targetPoint" />
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-20" value="子设备自注册，参数：网关模型标识、租户ID、&lt;br&gt;子设备模型标识、子设备SN、sign&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp;sign生成：MD5(ts+各参数+子设备模型密码)&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" edge="1">
+          <mxGeometry x="0.0114" relative="1" as="geometry">
+            <mxPoint x="403" y="522" as="sourcePoint" />
+            <mxPoint x="753" y="522.0000000000002" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TnPqKHVMJrRUI5Z-DvME-21" value="1、验证sign&lt;br&gt;2、查询租户下的模型是否可注册&lt;br&gt;3、创建子设备，使用子设备的SN&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;作为物标识&lt;br&gt;4、创建子设备和网关的topo关系" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-21" value="1、验证sign&lt;br&gt;2、查询子设备是否已注册、topo&lt;br&gt;关系已存在，是则直接返回结果，&lt;br&gt;否则继续以下步骤&lt;br&gt;3、查询租户下的模型是否可注册&lt;br&gt;4、创建子设备，使用子设备的SN&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;作为物标识&lt;br&gt;5、创建子设备和网关的topo关系" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="763" y="568" as="sourcePoint" />
+            <mxPoint x="763" y="552" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="793" y="568" />
+              <mxPoint x="793" y="552" />
             </Array>
-            <mxPoint x="763" y="596" as="targetPoint" />
+            <mxPoint x="763" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TnPqKHVMJrRUI5Z-DvME-22" value="子设备注册结果" style="html=1;verticalAlign=bottom;endArrow=blockThin;endSize=8;fontFamily=Verdana;endFill=1;" parent="1" edge="1">
@@ -99,7 +90,7 @@
             <mxPoint x="402" y="613" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TnPqKHVMJrRUI5Z-DvME-23" value="注册不成功，网关发起重试策略" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
+        <mxCell id="TnPqKHVMJrRUI5Z-DvME-23" value="注册不成功或超时无回复，网关发起重试策略" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;fontFamily=Verdana;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="403" y="641" as="sourcePoint" />
             <Array as="points">
@@ -108,19 +99,19 @@
             <mxPoint x="403" y="669" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PWMjd2jpEnkVxDKpsg_0-1" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+        <mxCell id="PWMjd2jpEnkVxDKpsg_0-1" value="用户" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="940" y="80" width="100" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="PWMjd2jpEnkVxDKpsg_0-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="PWMjd2jpEnkVxDKpsg_0-1">
+        <mxCell id="PWMjd2jpEnkVxDKpsg_0-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="PWMjd2jpEnkVxDKpsg_0-1" vertex="1">
           <mxGeometry x="45" y="60" width="10" height="562" as="geometry" />
         </mxCell>
-        <mxCell id="PWMjd2jpEnkVxDKpsg_0-3" value="创建子设备物模型" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="PWMjd2jpEnkVxDKpsg_0-3" value="创建子设备物模型" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="984.5" y="160" as="sourcePoint" />
             <mxPoint x="763" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PWMjd2jpEnkVxDKpsg_0-4" value="打开子设备物模型自注册开关，&lt;br&gt;设置子设备模型标识和密码" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1">
+        <mxCell id="PWMjd2jpEnkVxDKpsg_0-4" value="打开子设备物模型自注册开关，&lt;br&gt;设置子设备模型标识和密码" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
           <mxGeometry x="0.0339" y="14" width="80" relative="1" as="geometry">
             <mxPoint x="984.5" y="206" as="sourcePoint" />
             <mxPoint x="763" y="206" as="targetPoint" />
