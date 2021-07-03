@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-03T12:29:36.718Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Gj6kFR7w74OeKH8HWXV4" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-03T12:34:55.448Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Ms8aRjbiUSx7SXQJE1ut" version="14.8.3" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1030" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -19,19 +19,25 @@
             <mxPoint x="397" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-14" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeColor=#4672C4;" parent="1" edge="1">
+        <mxCell id="7baba1c4bc27f4b0-14" value="固件文件上传" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeColor=#4672C4;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="407" y="281" as="sourcePoint" />
-            <mxPoint x="637" y="281.0000000000002" as="targetPoint" />
+            <mxPoint x="400" y="269" as="sourcePoint" />
+            <mxPoint x="637" y="269" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zx9dLRUgrOR5L-L7LJRZ-2" value="固件上传" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontFamily=Verdana;fontSize=13;strokeColor=#4672C4;fontColor=#4672C4;" edge="1" parent="1">
+        <mxCell id="Zx9dLRUgrOR5L-L7LJRZ-2" value="固件添加" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;fontFamily=Verdana;fontSize=13;strokeColor=#4672C4;fontColor=#4672C4;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="195" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="430" y="195" />
             </Array>
             <mxPoint x="400" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx9dLRUgrOR5L-L7LJRZ-3" value="文件编码" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;fontSize=13;fontColor=#4672C4;strokeColor=#4672C4;" edge="1" parent="1" target="7baba1c4bc27f4b0-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="300" as="sourcePoint" />
+            <mxPoint x="560" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
