@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-04T05:27:06.454Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="nqnV8LpoCd7rq091Niau" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-04T05:36:56.782Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="oZcGluBpUiNOu1o9RLTJ" version="14.8.4" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1414" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="7baba1c4bc27f4b0-8" value="设备/网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1.5;fontFamily=Verdana;fontSize=13;align=center;fontColor=#ffffff;fontStyle=1;fillColor=#4672C4;sketch=0;rounded=0;glass=0;strokeColor=#4672C4;" parent="1" vertex="1">
           <mxGeometry x="100" y="80" width="100" height="480" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-11" value="通过MQTT CONNECT发送自注册请求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1">
+        <mxCell id="7baba1c4bc27f4b0-11" value="【MQTT CONNECT】发送自注册请求" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="160" as="sourcePoint" />
             <mxPoint x="600.25" y="160" as="targetPoint" />
@@ -26,23 +26,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zx9dLRUgrOR5L-L7LJRZ-7" value="【MQTT】升级完成，上报最新版本" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1">
+        <mxCell id="Zx9dLRUgrOR5L-L7LJRZ-7" value="【MQTT CONNECT】发送连接请求" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1" target="7baba1c4bc27f4b0-2">
           <mxGeometry x="0.0261" width="80" relative="1" as="geometry">
-            <mxPoint x="152" y="533" as="sourcePoint" />
-            <mxPoint x="401.5" y="533" as="targetPoint" />
+            <mxPoint x="152" y="480" as="sourcePoint" />
+            <mxPoint x="401.5" y="480" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zx9dLRUgrOR5L-L7LJRZ-8" value="【HTTPS】通过URL下载固件文件" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1">
+        <mxCell id="Zx9dLRUgrOR5L-L7LJRZ-8" value="断开当前MQTT连接" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="150" y="362" as="sourcePoint" />
-            <mxPoint x="640" y="362" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Zx9dLRUgrOR5L-L7LJRZ-9" value="固件文件" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640.5" y="406" as="sourcePoint" />
-            <mxPoint x="150" y="406" as="targetPoint" />
+            <mxPoint x="150" y="347" as="sourcePoint" />
+            <mxPoint x="600.25" y="347" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6qcfvPLFWDOjw323UtLE-1" value="订阅topic（v4/s/register）" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" edge="1" parent="1">
@@ -51,13 +45,34 @@
             <mxPoint x="600.25" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6qcfvPLFWDOjw323UtLE-18" value="保存认证信息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;" edge="1" parent="1">
+        <mxCell id="6qcfvPLFWDOjw323UtLE-18" value="保存认证信息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" edge="1" parent="1">
           <mxGeometry x="0.1554" y="20" relative="1" as="geometry">
             <mxPoint x="150.66000000000008" y="280.0100000000001" as="sourcePoint" />
             <mxPoint x="151" y="319" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="200" y="280.1" />
-              <mxPoint x="200" y="319.1" />
+              <mxPoint x="190" y="280" />
+              <mxPoint x="190" y="319" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6qcfvPLFWDOjw323UtLE-19" value="15秒后断开连接" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" edge="1" parent="1">
+          <mxGeometry x="0.1554" y="20" relative="1" as="geometry">
+            <mxPoint x="601.6600000000001" y="322.0100000000002" as="sourcePoint" />
+            <mxPoint x="602" y="361" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="322" />
+              <mxPoint x="640" y="361" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6qcfvPLFWDOjw323UtLE-20" value="连接成功" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;dashed=1;" edge="1" parent="1">
+          <mxGeometry x="0.0216" width="80" relative="1" as="geometry">
+            <mxPoint x="600.75" y="530" as="sourcePoint" />
+            <mxPoint x="150" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270.5" y="530" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
