@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-04T13:37:45.491Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="1yUPGFNKj2UVP6rTXJkd" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-04T13:44:35.345Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="IAtKoC0OlItpan6xm4e3" version="14.8.4" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1030" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -34,15 +34,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6qcfvPLFWDOjw323UtLE-18" value="若为合法请求，&lt;br&gt;创建子设备，&amp;nbsp;&lt;br&gt;绑定拓扑关系" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" parent="1" edge="1">
-          <mxGeometry x="0.3355" y="-49" relative="1" as="geometry">
+        <mxCell id="6qcfvPLFWDOjw323UtLE-18" value="自注册请求处理" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" parent="1" edge="1">
+          <mxGeometry x="0.1308" y="44" relative="1" as="geometry">
             <mxPoint x="707" y="253.0100000000001" as="sourcePoint" />
             <mxPoint x="707.3399999999999" y="292" as="targetPoint" />
             <Array as="points">
               <mxPoint x="746.3399999999999" y="253" />
               <mxPoint x="746.3399999999999" y="292" />
             </Array>
-            <mxPoint x="48" y="49" as="offset" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="HZFwv4Jx9KcQ3tFnTECy-1" value="子设备1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1.5;fontFamily=Verdana;fontSize=13;align=center;fontColor=#ffffff;fontStyle=1;fillColor=#4672C4;sketch=0;rounded=0;glass=0;strokeColor=#4672C4;" vertex="1" parent="1">
