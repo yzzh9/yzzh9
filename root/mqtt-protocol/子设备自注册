@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-04T13:18:58.838Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="FVLqFaUWSZ1E3B_C3ObA" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-04T13:37:45.491Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="1yUPGFNKj2UVP6rTXJkd" version="14.8.4" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1030" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -12,50 +12,60 @@
         </mxCell>
         <mxCell id="HZFwv4Jx9KcQ3tFnTECy-3" value="&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; ; font-size: 10px ; background-color: rgb(248 , 249 , 250)&quot;&gt;【MQTT】发送子设备自注册请求&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;verdana&amp;#34; ; font-size: 10px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;verdana&amp;#34; ; font-size: 10px ; background-color: rgb(248 , 249 , 250)&quot;&gt;（主题1）&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;shadow=0;fontColor=#4672C4;strokeColor=#4672C4;strokeWidth=1.5;" edge="1" parent="7baba1c4bc27f4b0-8">
           <mxGeometry x="-0.0628" y="-20" width="80" relative="1" as="geometry">
-            <mxPoint x="51" y="120" as="sourcePoint" />
-            <mxPoint x="332" y="120" as="targetPoint" />
+            <mxPoint x="51" y="147" as="sourcePoint" />
+            <mxPoint x="332" y="147" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-11" value="子设备连接网关" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1" target="7baba1c4bc27f4b0-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="199.88" y="160" as="sourcePoint" />
-            <mxPoint x="650.13" y="160" as="targetPoint" />
+        <mxCell id="7baba1c4bc27f4b0-11" value="连接网关" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1">
+          <mxGeometry x="-0.5443" relative="1" as="geometry">
+            <mxPoint x="184.75" y="152" as="sourcePoint" />
+            <mxPoint x="427.25" y="152" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Zx9dLRUgrOR5L-L7LJRZ-5" value="&lt;font style=&quot;font-size: 10px&quot;&gt;【MQTT】注册成功，返回认证信息&lt;br&gt;（主题2）&lt;br&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1">
           <mxGeometry x="0.0608" y="19" width="80" relative="1" as="geometry">
-            <mxPoint x="710" y="281" as="sourcePoint" />
-            <mxPoint x="427.5" y="281" as="targetPoint" />
+            <mxPoint x="710" y="308" as="sourcePoint" />
+            <mxPoint x="427.5" y="308" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="548" y="281" />
+              <mxPoint x="548" y="308" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6qcfvPLFWDOjw323UtLE-18" value="若为合法请求，&lt;br&gt;创建子设备，&amp;nbsp;&lt;br&gt;绑定topo关系" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" parent="1" edge="1">
+        <mxCell id="6qcfvPLFWDOjw323UtLE-18" value="若为合法请求，&lt;br&gt;创建子设备，&amp;nbsp;&lt;br&gt;绑定拓扑关系" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry x="0.3355" y="-49" relative="1" as="geometry">
-            <mxPoint x="707" y="221.0100000000001" as="sourcePoint" />
-            <mxPoint x="707.3399999999999" y="260" as="targetPoint" />
+            <mxPoint x="707" y="253.0100000000001" as="sourcePoint" />
+            <mxPoint x="707.3399999999999" y="292" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="746.3399999999999" y="221" />
-              <mxPoint x="746.3399999999999" y="260" />
+              <mxPoint x="746.3399999999999" y="253" />
+              <mxPoint x="746.3399999999999" y="292" />
             </Array>
             <mxPoint x="48" y="49" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HZFwv4Jx9KcQ3tFnTECy-1" value="子设备" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1.5;fontFamily=Verdana;fontSize=13;align=center;fontColor=#ffffff;fontStyle=1;fillColor=#4672C4;sketch=0;rounded=0;glass=0;strokeColor=#4672C4;" vertex="1" parent="1">
-          <mxGeometry x="150" y="80" width="100" height="320" as="geometry" />
+        <mxCell id="HZFwv4Jx9KcQ3tFnTECy-1" value="子设备1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1.5;fontFamily=Verdana;fontSize=13;align=center;fontColor=#ffffff;fontStyle=1;fillColor=#4672C4;sketch=0;rounded=0;glass=0;strokeColor=#4672C4;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="70" height="320" as="geometry" />
         </mxCell>
         <mxCell id="HZFwv4Jx9KcQ3tFnTECy-4" value="保存认证信息" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" edge="1" parent="1">
           <mxGeometry x="0.182" y="39" relative="1" as="geometry">
-            <mxPoint x="429" y="320.0100000000001" as="sourcePoint" />
-            <mxPoint x="429.3399999999999" y="359" as="targetPoint" />
+            <mxPoint x="429" y="347.0100000000001" as="sourcePoint" />
+            <mxPoint x="429.3399999999999" y="386" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="468.3399999999999" y="320" />
-              <mxPoint x="468.3399999999999" y="359" />
+              <mxPoint x="468.3399999999999" y="347" />
+              <mxPoint x="468.3399999999999" y="386" />
             </Array>
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HZFwv4Jx9KcQ3tFnTECy-6" value="子设备2" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1.5;fontFamily=Verdana;fontSize=13;align=center;fontColor=#ffffff;fontStyle=1;fillColor=#4672C4;sketch=0;rounded=0;glass=0;strokeColor=#4672C4;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="70" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HZFwv4Jx9KcQ3tFnTECy-7" value="连接网关" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="284.75" y="198" as="sourcePoint" />
+            <mxPoint x="427.25" y="198" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
