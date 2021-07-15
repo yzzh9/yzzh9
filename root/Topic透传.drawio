@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T09:36:29.597Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="aQpH-eEUwoPwk_M1ooYm" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T06:41:20.954Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Q_E3J3_lChOeZYjKZk8e" version="14.8.6" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1022" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1030" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="7baba1c4bc27f4b0-8" value="设备/网关" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1.5;fontFamily=Verdana;fontSize=13;align=center;fontColor=#ffffff;fontStyle=1;fillColor=#4672C4;sketch=0;rounded=0;glass=0;strokeColor=#4672C4;" parent="1" vertex="1">
           <mxGeometry x="100" y="80" width="100" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-11" value="透传上行（MQTT）" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1" target="7baba1c4bc27f4b0-2">
+        <mxCell id="7baba1c4bc27f4b0-11" value="透传上行（MQTT）" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" target="7baba1c4bc27f4b0-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="180" as="sourcePoint" />
             <mxPoint x="397" y="180" as="targetPoint" />
@@ -25,7 +25,7 @@
             <mxPoint x="520" y="201" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Zx9dLRUgrOR5L-L7LJRZ-5" value="透传下行（MQTT）" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1" target="7baba1c4bc27f4b0-2">
+        <mxCell id="Zx9dLRUgrOR5L-L7LJRZ-5" value="透传下行（MQTT）" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" target="7baba1c4bc27f4b0-2" edge="1">
           <mxGeometry x="0.036" width="80" relative="1" as="geometry">
             <mxPoint x="520.5" y="559" as="sourcePoint" />
             <mxPoint x="350" y="559" as="targetPoint" />
@@ -35,10 +35,10 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="osyFYBOAApyuV-oODg8q-1" value="accessRule" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1.5;fontFamily=Verdana;fontSize=13;align=center;fontColor=#ffffff;fontStyle=1;fillColor=#4672C4;sketch=0;rounded=0;glass=0;strokeColor=#4672C4;" vertex="1" parent="1">
+        <mxCell id="osyFYBOAApyuV-oODg8q-1" value="accessRule" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1.5;fontFamily=Verdana;fontSize=13;align=center;fontColor=#ffffff;fontStyle=1;fillColor=#4672C4;sketch=0;rounded=0;glass=0;strokeColor=#4672C4;" parent="1" vertex="1">
           <mxGeometry x="673" y="80" width="100" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="osyFYBOAApyuV-oODg8q-4" value="公共头解析、&lt;br&gt;权限校验、流量控制" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" edge="1" parent="1">
+        <mxCell id="osyFYBOAApyuV-oODg8q-4" value="公共头解析、&lt;br&gt;权限校验、流量控制" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry x="0.182" y="61" relative="1" as="geometry">
             <mxPoint x="520" y="210.0100000000001" as="sourcePoint" />
             <mxPoint x="520.3399999999999" y="249" as="targetPoint" />
@@ -49,22 +49,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="osyFYBOAApyuV-oODg8q-5" value="透传上行（kafka）" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" edge="1" parent="1" target="osyFYBOAApyuV-oODg8q-1">
+        <mxCell id="osyFYBOAApyuV-oODg8q-5" value="透传上行（kafka）" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" target="osyFYBOAApyuV-oODg8q-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="280" as="sourcePoint" />
             <mxPoint x="691.25" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="osyFYBOAApyuV-oODg8q-6" value="三方应用" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1.5;fontFamily=Verdana;fontSize=13;align=center;fontColor=#ffffff;fontStyle=1;fillColor=#4672C4;sketch=0;rounded=0;glass=0;strokeColor=#4672C4;" vertex="1" parent="1">
+        <mxCell id="osyFYBOAApyuV-oODg8q-6" value="三方应用" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1.5;fontFamily=Verdana;fontSize=13;align=center;fontColor=#ffffff;fontStyle=1;fillColor=#4672C4;sketch=0;rounded=0;glass=0;strokeColor=#4672C4;" parent="1" vertex="1">
           <mxGeometry x="860" y="80" width="100" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="osyFYBOAApyuV-oODg8q-7" value="透传上行（HTTP）" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" edge="1" parent="1">
+        <mxCell id="osyFYBOAApyuV-oODg8q-7" value="透传上行（HTTP）" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=10;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#0050ef;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="721" y="319.5" as="sourcePoint" />
             <mxPoint x="911" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="osyFYBOAApyuV-oODg8q-8" value="透传下行（HTTP）" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" edge="1" parent="1">
+        <mxCell id="osyFYBOAApyuV-oODg8q-8" value="透传下行（HTTP）" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1">
           <mxGeometry x="0.036" width="80" relative="1" as="geometry">
             <mxPoint x="910.5" y="400" as="sourcePoint" />
             <mxPoint x="726" y="401" as="targetPoint" />
@@ -74,7 +74,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="osyFYBOAApyuV-oODg8q-9" value="透传下行（kafka）" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" edge="1" parent="1">
+        <mxCell id="osyFYBOAApyuV-oODg8q-9" value="透传下行（kafka）" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1">
           <mxGeometry x="0.036" width="80" relative="1" as="geometry">
             <mxPoint x="724.5" y="480" as="sourcePoint" />
             <mxPoint x="521.75" y="480" as="targetPoint" />
@@ -84,7 +84,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="osyFYBOAApyuV-oODg8q-10" value="权限校验、流量控制" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" edge="1" parent="1">
+        <mxCell id="osyFYBOAApyuV-oODg8q-10" value="权限校验、流量控制" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry x="0.182" y="57" relative="1" as="geometry">
             <mxPoint x="724" y="420.0100000000001" as="sourcePoint" />
             <mxPoint x="724.3399999999999" y="459" as="targetPoint" />
@@ -95,7 +95,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="osyFYBOAApyuV-oODg8q-11" value="消息体构造" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" edge="1" parent="1">
+        <mxCell id="osyFYBOAApyuV-oODg8q-11" value="消息体构造" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;exitX=1.066;exitY=0.713;exitPerimeter=0;sketch=0;shadow=0;rounded=1;strokeColor=#4672C4;fontColor=#4672C4;strokeWidth=1.5;" parent="1" edge="1">
           <mxGeometry x="0.182" y="31" relative="1" as="geometry">
             <mxPoint x="520" y="500.0100000000001" as="sourcePoint" />
             <mxPoint x="520.3399999999999" y="539" as="targetPoint" />
@@ -106,7 +106,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="osyFYBOAApyuV-oODg8q-12" value="透传下行（MQTT）" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" edge="1" parent="1">
+        <mxCell id="osyFYBOAApyuV-oODg8q-12" value="透传下行（MQTT）" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Verdana;fontSize=10;strokeWidth=1.5;fontColor=#4672C4;strokeColor=#4672C4;" parent="1" edge="1">
           <mxGeometry x="0.036" width="80" relative="1" as="geometry">
             <mxPoint x="318.75" y="600" as="sourcePoint" />
             <mxPoint x="150" y="600" as="targetPoint" />
