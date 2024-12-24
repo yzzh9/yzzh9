@@ -57,7 +57,7 @@
         </mxCell>
         <mxCell id="xt7PEyAex0gFcUq6fjPx-14" value="RPC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xt7PEyAex0gFcUq6fjPx-13" vertex="1" connectable="0">
           <mxGeometry x="0.0237" y="8" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-5" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xt7PEyAex0gFcUq6fjPx-15" value="iothub-access-ext2" style="shape=component;align=left;spacingLeft=36;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeColor=#000000;strokeWidth=1;fillColor=#ffffff;fontFamily=Verdana;fontSize=12;fontColor=#000000;html=1;" parent="1" vertex="1">
